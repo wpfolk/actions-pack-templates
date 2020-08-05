@@ -1,0 +1,201 @@
+{
+  "version": "0.4",
+  "title": "ap",
+  "type": "section",
+  "content": [
+    {
+      "id": "261b7f68",
+      "settings": [],
+      "elements": [
+        {
+          "id": "1719ae92",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5f1bb7e5",
+              "settings": {
+                "form_name": "New Form",
+                "form_fields": [
+                  {
+                    "field_type": "text",
+                    "field_label": "Email",
+                    "placeholder": "",
+                    "required": "",
+                    "selected_icon": {
+                      "value": "fas fa-star",
+                      "library": "fa-solid"
+                    },
+                    "field_options": "",
+                    "allow_multiple": "",
+                    "select_size": "",
+                    "inline_list": "",
+                    "field_html": "",
+                    "width": "100",
+                    "width_tablet": "",
+                    "width_mobile": "",
+                    "rows": 4,
+                    "recaptcha_size": "normal",
+                    "recaptcha_style": "light",
+                    "recaptcha_badge": "bottomright",
+                    "css_classes": "",
+                    "field_value": "",
+                    "field_pattern": "",
+                    "field_pattern_message": "Please match the requested format",
+                    "custom_id": "field_7582455",
+                    "_id": "7582455",
+                    "password_preview_toggle": "",
+                    "field_select2": "true",
+                    "field_psw_visiblity": "true",
+                    "field_icon_position": "no-icon",
+                    "field_description_position": "no-description",
+                    "field_description_tooltip_position": "top",
+                    "dce_step_next": "Next",
+                    "dce_step_prev": "Prev",
+                    "dce_field_visibility_mode": "visible",
+                    "dce_field_visibility_operator": "equal_to"
+                  },
+                  {
+                    "field_type": "password",
+                    "field_label": "Password",
+                    "placeholder": "",
+                    "required": "",
+                    "selected_icon": {
+                      "value": "fas fa-star",
+                      "library": "fa-solid"
+                    },
+                    "field_options": "",
+                    "allow_multiple": "",
+                    "select_size": "",
+                    "inline_list": "",
+                    "field_html": "",
+                    "width": "100",
+                    "width_tablet": "",
+                    "width_mobile": "",
+                    "rows": 4,
+                    "recaptcha_size": "normal",
+                    "recaptcha_style": "light",
+                    "recaptcha_badge": "bottomright",
+                    "css_classes": "",
+                    "field_value": "",
+                    "field_pattern": "[a-z]{4,6}",
+                    "field_pattern_message": "Please match the requested format",
+                    "custom_id": "field_b91312d",
+                    "_id": "b91312d",
+                    "password_preview_toggle": "yes",
+                    "field_select2": "true",
+                    "field_psw_visiblity": "",
+                    "field_icon_position": "elementor-field-label",
+                    "field_description_position": "no-description",
+                    "field_description_tooltip_position": "top",
+                    "dce_step_next": "Next",
+                    "dce_step_prev": "Prev",
+                    "dce_field_visibility_mode": "visible",
+                    "dce_field_visibility_operator": "equal_to"
+                  }
+                ],
+                "step_next_label": "Next",
+                "step_previous_label": "Previous",
+                "button_text": "Send",
+                "submit_actions": [
+                  "login"
+                ],
+                "email_content": "[all-fields]",
+                "email_content_2": "[all-fields]",
+                "ap_register_email_from_name": "My Great Blog",
+                "ap_register_email_from": "yourname@yourdomain.mamp",
+                "ap_register_email_subject": "Thank you for registering",
+                "ap_register_email_message": "Thank you for registering to our site.",
+                "ap_register_phone_message": "Thank you for registering. Please verify your Phone number using this [ap-verification] link/otp before you login to our site.",
+                "ap_login_via": "password",
+                "ap_login_email_from_name": "My Great Blog",
+                "ap_login_email_from": "yourname@yourdomain.mamp",
+                "ap_login_email_subject": "Your One Time Passcode",
+                "ap_login_email_message": "Your one time password is [ap-login-otp].",
+                "ap_login_phone_message": "Your one time password is [ap-login-otp].",
+                "ap_reset_pass_email_from_name": "My Great Blog",
+                "ap_reset_pass_email_from": "yourname@yourdomain.mamp",
+                "ap_reset_pass_email_subject": "Your password reset link",
+                "ap_reset_pass_email_message": "Hi, Use the following link/otp [ap-reset-pass] to reset your password",
+                "ap_reset_pass_phone_message": "Hi, Use the following link/otp [ap-reset-pass] to reset your password",
+                "ap_google_sheet_mapping": [
+                  {
+                    "ap_google_sheet_field_id": "name",
+                    "ap_google_sheet_column_id": 1,
+                    "_id": "aeee470"
+                  },
+                  {
+                    "ap_google_sheet_field_id": "email",
+                    "ap_google_sheet_column_id": 2,
+                    "_id": "c10cfc7"
+                  },
+                  {
+                    "ap_google_sheet_field_id": "message",
+                    "ap_google_sheet_column_id": 3,
+                    "_id": "c096af5"
+                  }
+                ],
+                "ap_sms_message": "[all-fields]",
+                "success_message": "The form was sent successfully.",
+                "error_message": "An error occured.",
+                "required_field_message": "This field is required.",
+                "invalid_message": "There's something wrong. The form is invalid.",
+                "ap_login_otp_container_position": "absolute",
+                "ap_login_otp_container_background_background": "classic",
+                "ap_login_otp_container_background_color": "#4054B2",
+                "ap_login_otp_box_width": {
+                  "unit": "px",
+                  "size": 625,
+                  "sizes": []
+                },
+                "ap_login_otp_box_height": {
+                  "unit": "px",
+                  "size": 400,
+                  "sizes": []
+                },
+                "ap_login_user_popover": "yes",
+                "ap_login_user": "field_7582455",
+                "ap_login_password_popover": "yes",
+                "ap_login_password": "field_b91312d",
+                "ap_login_otp_popover": "yes",
+                "input_size": "md",
+                "dce_form_export_headers": [
+                  {
+                    "dce_form_export_header_key": "Connection",
+                    "dce_form_export_header_value": "keep-alive",
+                    "_id": "a0af323"
+                  }
+                ],
+                "dce_form_pdf_log_path": "elementor/export/log_2cba98a_[date|Ymd].txt",
+                "dce_form_pdf_name": "[date|U]",
+                "dce_form_pdf_folder": "elementor/pdf/[date|Y]/[date|m]",
+                "dce_form_pdf_title": "Form data by [field id=\"name\"] in [date|Y-m-d H:i:s]",
+                "dce_form_pdf_content": "[field id=\"message\"]",
+                "dce_form_save_type_post_title": "Form Entry by [field id=\"name\"]",
+                "dce_form_save_type_post_content": "[field id=\"message\"]",
+                "dce_form_save_type_user_email": "[field id=\"email\"]",
+                "dce_form_save_type_user_pass": "[field id=\"user_pass\"]",
+                "dce_form_save_type_term_name": "Term [field id=\"name\"]",
+                "dce_form_save_type_term_description": "[field id=\"message\"]"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "form",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "column"
+        }
+      ],
+      "isInner": false,
+      "elType": "section"
+    }
+  ],
+  "page_settings": {
+    "scroll_viewport": "#outer-wrap",
+    "scroll_contentScroll": "#wrap"
+  }
+}
